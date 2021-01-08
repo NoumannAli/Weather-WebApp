@@ -15,8 +15,13 @@ searchbox.addEventListener('keypress', setQuery);
 function setQuery(evt) {
   if (evt.keyCode == 13) {
     getResults(searchbox.value);
+    searchbox.value = "Search for city";
   }
 }
+
+searchbox.addEventListener('mouseover',function(){
+  searchbox.value = "";
+});
 
 // This function fetch api for given query
 function getResults (query) {
