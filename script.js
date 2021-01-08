@@ -19,7 +19,7 @@ function setQuery(evt) {
   }
 }
 
-searchbox.addEventListener('mouseover',function(){
+searchbox.addEventListener('click',function(){
   searchbox.value = "";
 });
 
