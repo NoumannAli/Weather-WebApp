@@ -19,9 +19,9 @@ function setQuery(evt) {
   }
 }
 
-searchbox.addEventListener('click',function(){
-  searchbox.value = "";
-});
+// searchbox.addEventListener('click',function(){
+//   searchbox.value = "";
+// });
 
 // This function fetch api for given query
 function getResults (query) {
